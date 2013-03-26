@@ -1,0 +1,1 @@
+web: gunicorn app:app -w 5 -k eventlet -b 0.0.0.0:$PORT
